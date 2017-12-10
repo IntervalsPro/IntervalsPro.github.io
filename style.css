@@ -44,6 +44,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-md{
 	padding:50px;
 }
+.bloc-sm{
+	padding:20px 50px;
+}
 
 /* = Full Screen Blocs 
 -------------------------------------------------------------- */
@@ -549,6 +552,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bgc-outer-space{
 	background-color:#47454B;
+}
+.bgc-olive-drab-7{
+	background-color:#333433;
 }
 
 /* Bloc image backgrounds */

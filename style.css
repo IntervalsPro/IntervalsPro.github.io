@@ -402,6 +402,9 @@ button{
 	outline: none!important;
 }
 
+.btn-sq{
+	border-radius: 0px;
+}
 .btn-xl{
 	padding: 16px 40px;
 	font-size: 28px;
@@ -538,6 +541,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .blocs-mobile-signup-text{
 	font-size:33px;
 }
+.help-question{
+	background-color:transparent;
+	background-clip:;
+	-webkit-background-clip:;
+	color:#333333!important;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -547,14 +556,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-white{
 	background-color:#FEFFFF;
 }
-.bgc-black{
-	background-color:#000000;
+.bgc-olive-drab-7{
+	background-color:#333433;
 }
 .bgc-outer-space{
 	background-color:#47454B;
-}
-.bgc-olive-drab-7{
-	background-color:#333433;
 }
 
 /* Bloc image backgrounds */

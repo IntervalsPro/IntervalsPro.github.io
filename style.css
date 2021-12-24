@@ -238,6 +238,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -274,6 +278,13 @@ button{
 
 .btn-sq{
 	border-radius: 0px;
+}
+.btn-rd{
+	border-radius: 40px;
+}
+.btn-xl{
+	padding: 16px 40px;
+	font-size: 28px;
 }
 .a-block{
 	width:100%;
@@ -350,6 +361,35 @@ button{
 	stroke-width: 2px;
 	fill-rule: evenodd;
 	stroke-linecap:round;
+}
+/* = Watch Devices
+-------------------------------------------------------------- */
+
+.blocsapp-device-watch{
+	background-size: 256px 495px;
+	padding-top:136px;
+	display: block;
+	width:256px;
+	height:495px;
+}
+.blocsapp-device-watch img{
+	width: 182px;
+	height: 232px;
+	margin: 0 auto;
+	display:block;
+	border-radius:30px;
+}
+.blocsapp-device-watch .embed-responsive::before{
+	padding-top: 106.25%;
+}
+.blocsapp-device-watch .embed-responsive{
+	padding-bottom: 12%;
+	width: 70%;
+	right: -15%;
+	border-radius: 14%;
+}
+.blocsapp-device-watch.watch-white{
+	background-image:url("img/Apple-watch-white.png");
 }
 
 /* Toggle Visibility */
@@ -444,6 +484,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bloc-7-p{
 	font-size: 18px;
 }
+.h1-style{
+	width:100%;
+	font-size:40px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -458,6 +502,23 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bgc-outer-space{
 	background-color:#47454B;
+}
+
+/* Text colour styles */
+
+.tc-black{
+	color:rgba(0,0,0,0.701961)!important;
+}
+
+/* Button colour styles */
+
+.btn-azure{
+	background:#007AFE;
+	color:#FFFFFF!important;
+}
+.btn-azure:hover{
+	background:#0062cb!important;
+	color:#FFFFFF!important;
 }
 
 /* Bloc image backgrounds */

@@ -484,9 +484,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bloc-7-p{
 	font-size: 18px;
 }
-.h1-style{
+.btn-padding{
+	padding-top:4px;
+	padding-bottom:4px;
 	width:100%;
-	font-size:40px;
+}
+.img-style{
+	height:235px;
 }
 
 /* = Colour
